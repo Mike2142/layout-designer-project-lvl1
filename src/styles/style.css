@@ -1,11 +1,11 @@
 /* style reset */
 * {
+    vertical-align: baseline;
+    font-size: 100%;
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
     background: transparent;
     box-sizing: border-box;
 }
@@ -265,18 +265,18 @@ main {
     margin-top: 4px;
 }
 
-.content._brown {
+.content.-brown {
     background: var(--brown);
 }
 
-._brown .content--parent,
-._brown .content--header,
-._brown .content--thesis,
-._brown .column {
+.-brown .content--parent,
+.-brown .content--header,
+.-brown .content--thesis,
+.-brown .column {
     color: var(--white);
 }
 
-._brown .text-header {
+.-brown .text-header {
     color: var(--main-dark);
     background: var(--white);
 }
